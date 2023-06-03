@@ -1,0 +1,64 @@
+.B1{
+    font-family: Ariel;
+    font-size: 18px;
+    color: brown;
+    text-align: left;
+    background: #eeb807;
+    margin-right: 84%;
+}
+
+/* 
+   margin-top: 50%;   margin-right:50%;
+
+
+*/
+.B2{
+  font-family: Times New 'Times New Roman', Times, serif;  
+  font-size: 20px;
+  color: aqua;
+  text-align: center;
+  background-color: salmon;
+  padding-right: 10%;
+}
+
+.Titulo{
+  text-align: center;
+  padding-right: 10%;
+  color: blue;
+  background: yellow;
+}
+
+
+.Imagendecatedral{
+text-align: center;
+}
+
+body{
+  background: #649173;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #DBD5A4, #649173);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #DBD5A4, #649173); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.parrafos{
+display: flex;
+flex-direction: row;
+flex-direction: row-reverse;
+
+
+}
+
+
+section{
+  display: flex;
+  
+  align-items: center;
+  flex: 5000%;
+}
+
+article{
+  flex: 2000%;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+}
